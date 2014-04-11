@@ -1,0 +1,21 @@
+{
+  "name": "zlib-jsx",
+  "version": "0.0.1",
+  "description": "zlib.js in JSX-lang",
+  "author": {
+    "name": "Yuta Imaya"
+  },
+  "homepage": "https://github.com/imaya/zlib.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imaya/zlib.jsx.git"
+  },
+  "devDependencies": {
+    "jsx": ">=0.9.83",
+    "jsx-linker": ">=0.1.5"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/jsx --release --minify export/inflate.jsx | ./node_modules/.bin/jsx-linker -t export-global --stdin -o build/inflate.jsx.min.js"
+  },
+  "private": true
+}
