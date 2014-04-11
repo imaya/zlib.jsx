@@ -1,7 +1,3 @@
-/***
- * A JSX application.
- */
-
 import '../src/inflate.jsx';
 
 __export__ class ZlibInflate {
@@ -25,6 +21,3 @@ __export__ class ZlibInflate {
     return this.typed ? this.uint8.decompress() : this.array.decompress();
   }
 }
-
-// vim: set tabstop=2 shiftwidth=2 expandtab:
-

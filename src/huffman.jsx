@@ -1,4 +1,5 @@
 import 'console.jsx';
+
 /**
  * build huffman table from length list.
  * @return {!Array} huffman table.
@@ -64,4 +65,3 @@ class ZlibHuffman.<T> {
     return [table, maxCodeLength, minCodeLength];
   }
 }
-

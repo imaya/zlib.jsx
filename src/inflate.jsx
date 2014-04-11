@@ -83,4 +83,3 @@ class Inflate.<T> {
     return buffer;
   }
 }
-

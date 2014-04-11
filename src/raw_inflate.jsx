@@ -452,4 +452,3 @@ class RawInflate.<T> {
     return this.buffer = ByteArray.truncate(this.output, this.op);
   }
 }
-
